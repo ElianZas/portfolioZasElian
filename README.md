@@ -6,5 +6,5 @@ Esta última es la herramienta más nueva para mí.
 Para comentar, intenté hacer el carousel con javascript pero aún debería hacerle modificaciones ya que
 no funcional totalmente. 
 Por otro lado, agregué en la página index un switch con js para cambiar de modo oscuro a claro,
-una validación para el formulario junto a formspree para que sea funcional.
+una validación para el formulario junto a formspree para que sea funcional, e hice un menú hamburguesa.
 También probé realizar una animación del logo tipo texto de la navbar simulándo una máquina de escribir.
