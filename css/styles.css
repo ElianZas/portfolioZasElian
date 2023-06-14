@@ -295,6 +295,7 @@ html{
     justify-content: center;
     color: var(--color-lightviolet);
     font-size:var(--font-size-p);
+    row-gap: 2rem;
     text-align: center;
 }
 .galeria h3{
