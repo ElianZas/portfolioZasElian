@@ -732,9 +732,10 @@ a .btnProyecto , a .vermas{
     transition: 0.4s ease-in;
 }
 
+
 .slider-contenedor {
     margin-left: 0rem; /* Añadir un margen */
-    margin-right:0.5rem;
+    margin-right:0rem;
     left: 0;
     display: flex;
     height: auto;
@@ -773,6 +774,9 @@ a .btnProyecto , a .vermas{
     cursor: pointer;
     position: relative;
 }
+
+    
+
 
 .btn-download {
     background-color: rgb(69, 131, 100);
