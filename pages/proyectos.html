@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!--Hojas de estilo-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Portfolio Elian</title>
+</head>
+<body>
+    <header class = "header">
+        <div id="header" class="header contenedor">
+            <a href="./index.html"><h2 class="header logo">ElianZH</h2></a>
+            <nav class="desktop nav">
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./sobremi.html">Sobre mí</a></li>
+                    <li><a href="./proyectos.html">Proyectos</a></li>
+                    <li><a href="./curriculum.html">Currículum</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="header hamburguer">
+                <div class="bar"> </div>
+            </button>
+        </div>
+        <nav class="header mobile nav activo">
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./sobremi.html">Sobre mí</a></li>
+                <li><a href="./proyectos.html">Proyectos</a></li>
+                <li><a href="./curriculum.html">Currículum</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="proyectos-cards">
+        <div class="proyectos-h1"><h1>Mis Proyectos</h1></div>
+        <div class="slider-contenedor" item-display-d="4" item-display-t="3"  item-display-m="1">
+            <div class="slider-width">
+                <div class="item" id="proyecto-item">
+                    <img src="../media/elianzas.github.io_ProyectoFinal-PaginaWeb.github.io_.png" alt="Portfolio Fotográfico Zás Herrera Elian HTML CSS">
+                    <h3>Portfolio Fotográfico</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <a href="https://elianzas.github.io/ProyectoFinal-PaginaWeb.github.io/"><button class="btnProyecto">Ver</button></a>
+                </div>
+                <div class="item"  id="proyecto-item">
+                    <img src="../media/elianzas.github.io_BAMultiplicaBiografia_.png" alt="Página web de una Biografía con HTML CSS">
+                    <h3>Biografía de Artista</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <a href="https://elianzas.github.io/BAMultiplicaBiografia/"><button class="btnProyecto">Ver</button></a>
+                </div>
+                <div class="item"  id="proyecto-item">
+                    <img src="../media/220880-P1KV8M-746.jpg" alt="E-comerce Emprendimiento en proceso Página Web">
+                    <h3>E-comerce emprendimiento</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <button class="btnProyecto"><a href="">En proceso</a></button>
+                </div>
+                <div class="item"  id="proyecto-item">
+                    <img src="../media/220880-P1KV8M-746.jpg" alt="E-comerce Emprendimiento en proceso Página Web">
+                    <h3>To-doList</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <button class="btnProyecto"><a href="">En proceso</a></button>
+                </div>
+                <div class="item"  id="proyecto-item">
+                    <img src="../media/220880-P1KV8M-746.jpg" alt="Project 1">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <button class="btnProyecto"><a href="">Ver</a></button>
+                </div>
+                <div class="item"  id="proyecto-item">
+                    <img src="../media/220880-P1KV8M-746.jpg" alt="Project 1">
+                    <h3>Lorem</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo in metus hendrerit semper. Sed auctor, tortor nec gravida pulvinar, ligula est mattis nisi, nec malesuada metus mi non est.</p>
+                    <button class="btnProyecto"><a href="">Ver</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="proyectos-btn">
+            <button type="button" class="slider-btn" onclick="prev()">Anterior</button>
+            <button type="button" class="slider-btn" onclick="next()">Siguiente</button>
+        </div>
+    </main>
+    <div class="scroll-inicio">
+        <a href="#header"><svg xmlns="http://www.w3.org/2000/svg" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg></a>
+        </div>
+
+
+
+
+
+
+    <footer class="footer">&#169 Todos los derechos reservados &#169 </footer>
+    <!--Scripts JS-->
+    <script src="../scripts/maquinaescribir.js"></script>
+    <script src="../scripts/navbar.js"></script>  
+    <script src="../scripts/carousel.js"></script>  
+</body>
+</html>
+      
